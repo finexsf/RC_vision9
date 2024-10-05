@@ -13,9 +13,9 @@ launch文件中更改 LiDAR IP 为 192.168.8.2
 
 在终端run LaserScan node：roslaunch lakibeam1 lakibeam1_scan.launch  
 新开一个终端输入：rviz  
-在rviz界面需要改两个地方：
+在rviz界面需要改两个地方：  
 1.fixedname 中的 map 改称 laser  
-2.选择Laser
+2.选择LaserScan
 ![图片](https://github.com/user-attachments/assets/d9c2a384-56f0-4bd6-9f9f-b74d826fa330)
 
 最后会看到雷达点云图：  
