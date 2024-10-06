@@ -16,8 +16,12 @@ https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver
 launch文件中更改 LiDAR IP 为 192.168.8.2  
 ![图片](https://github.com/user-attachments/assets/14600c64-ff6d-493b-bea5-04407d744f96)
 
-在终端run LaserScan node：roslaunch lakibeam1 lakibeam1_scan.launch  
+在终端：  
+cd ~/catkin_ws  
+catkin_make  
+roslaunch lakibeam1 lakibeam1_scan.launch（run LaserScan node）  
 新开一个终端输入：rviz  
+
 在rviz界面需要改两个地方：  
 1.fixedname 中的 map 改称 laser  
 2.选择LaserScan
