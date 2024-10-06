@@ -1,4 +1,4 @@
-RICHBEAM LakiBeam 1
+£RICHBEAM LakiBeam 1
 
 基础教程：  
 https://wiki.richbeam.com/zh_CN/  
