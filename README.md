@@ -18,11 +18,13 @@ launch文件中更改 LiDAR IP 为 192.168.8.2
 
 将代理调到 DIRECT ！！！不要上外网
 
-在终端：  
+在终端：
+```
 cd ~/catkin_ws  
 catkin_make  
 roslaunch lakibeam1 lakibeam1_scan.launch（run LaserScan node）  
 新开一个终端输入：rviz  
+```
 
 在rviz界面需要改两个地方：  
 1.fixedname 中的 map 改称 laser  
