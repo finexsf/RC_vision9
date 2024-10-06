@@ -16,6 +16,8 @@ https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver
 launch文件中更改 LiDAR IP 为 192.168.8.2  
 ![图片](https://github.com/user-attachments/assets/14600c64-ff6d-493b-bea5-04407d744f96)
 
+将代理调到 DIRECT ！！！不要上外网
+
 在终端：  
 cd ~/catkin_ws  
 catkin_make  
