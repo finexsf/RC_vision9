@@ -8,6 +8,11 @@ LakiBeam ROS1 Drvier:
 https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver  
 
 通过 USB Type-C （而非网线）连接时：  
+
+更改设置：  
+![图片](https://github.com/user-attachments/assets/59d6a9b7-ad3a-45a8-96dd-1931f9cd439a)
+![图片](https://github.com/user-attachments/assets/cc868540-2cd8-4cc9-ae24-15299b4e450d)
+
 launch文件中更改 LiDAR IP 为 192.168.8.2  
 ![图片](https://github.com/user-attachments/assets/14600c64-ff6d-493b-bea5-04407d744f96)
 
