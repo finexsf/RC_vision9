@@ -7,8 +7,8 @@ https://www.richbeam.com/download/
 LakiBeam ROS1 Drvier:  
 https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver  
 
-![图片](https://github.com/user-attachments/assets/8a270d53-69f1-4717-9e4b-a2d195aace45)
-![图片](https://github.com/user-attachments/assets/5425124c-065f-4c64-88f5-869f825d83b7)
+![图片](https://github.com/user-attachments/assets/fcd2821b-b3b8-4a0b-b11c-79274cdbf7df)  
+![图片](https://github.com/user-attachments/assets/8a270d53-69f1-4717-9e4b-a2d195aace45)  
 
 ## 通过 USB Type-C （而非网线）连接时：  
 
