@@ -1,5 +1,7 @@
 # RICHBEAM LakiBeam 1
 
+免驱，只需要配置好雷达ip即可(网线和USB Type-C两种情况的ip不同)  
+
 基础教程：  
 https://wiki.richbeam.com/zh_CN/  
 资源下载：  
@@ -12,8 +14,8 @@ https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver
 ROS自定义的坐标系，和雷达定义的不一样，雷达的ROS驱动适配了ROS的坐标系，把雷达的转换成了 -π~π  
 ![图片](https://github.com/user-attachments/assets/8a270d53-69f1-4717-9e4b-a2d195aace45)  
 
-scan：二维数据
-pcd：三维数据(用在二维雷达上 z=0)
+scan：二维数据  
+pcd：三维数据(用在二维雷达上 z=0)  
 
 ## 通过 USB Type-C （而非网线）连接时：  
 
@@ -75,7 +77,7 @@ rviz
 rostopic echo /scan --noarr -c  
 ```
 -π~π 每个距离间隔的角度是 angle_increment 的数值，即可算出每个距离对应的角度  
-total data points: 1440
+total data points: 1440  
 ![图片](https://github.com/user-attachments/assets/ebe40f3d-ae7f-4cd0-9ef7-9752e871f2fe)  
 ![图片](https://github.com/user-attachments/assets/51f2193f-03e8-4508-a18f-75c7e79e5e6b)  
 
