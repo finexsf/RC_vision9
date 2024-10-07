@@ -88,6 +88,15 @@ rostopic echo /scan
 (或rostopic echo scan)
 ```
 
+如果太快了不方便观察数据，可以只看一帧的  
+```
+rostopic echo /scan -n1
+```
+![图片](https://github.com/user-attachments/assets/4a7f5ad2-41b4-4c6f-bfb4-2b0c9c761cea)  
+![图片](https://github.com/user-attachments/assets/7694dc62-5c49-4242-aaf5-30a1c1f7018c)  
+![图片](https://github.com/user-attachments/assets/a847b25d-16cf-43e7-9a77-36808b028760)  
+![图片](https://github.com/user-attachments/assets/5cd8e697-6e08-4c7f-a6da-d66cdb133626)  
+
 终端6：  
 ```
 rosmsg info sensor_msgs/LaserScan
