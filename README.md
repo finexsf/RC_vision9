@@ -46,7 +46,11 @@ type ---> 被运行的节点文件(launch 文件)
 name ---> 节点名  
 output -> 设置日志的输出目标  
 
-![图片](https://github.com/user-attachments/assets/130250bf-9a08-4dfa-81b3-e7974252b2d2)  
+![图片](https://github.com/user-attachments/assets/130250bf-9a08-4dfa-81b3-e7974252b2d2)   
+
+package.xml <name> 也是包名  
+![图片](https://github.com/user-attachments/assets/68d749fe-08cc-4340-845f-4663147e9706)  
+
 
 ## 查看雷达数据  
 
@@ -77,14 +81,25 @@ total data points: 1440
 
 终端5：  
 ```
+# 查看雷达完整数据
+rostopic echo /scan
+(或rostopic echo scan)
+```
+
+终端6：  
+```
 rosmsg info sensor_msgs/LaserScan
 ```
 ![图片](https://github.com/user-attachments/assets/1e40fac6-62bd-4d36-a97c-629564116254)
 
-终端6：
+终端7：
 ```
 # 可视化显示计算图  
 rqt_graph  
 ```
 ![图片](https://github.com/user-attachments/assets/743c66f8-e5db-4c48-ac25-b0e973560735)
 
+```
+# 也可查看节点名
+rosnode list 
+```
