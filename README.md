@@ -25,7 +25,7 @@ launch文件中更改 LiDAR IP 为 192.168.8.2
 ```
 cd catkin_ws  
 catkin_make
-source devel/setup.bash
+source ~/catkin_ws/devel/setup.bash
 roslaunch lakibeam1 lakibeam1_scan.launch（run LaserScan node）  
 新开一个终端输入：rviz  
 ```
