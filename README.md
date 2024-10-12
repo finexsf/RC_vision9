@@ -55,7 +55,7 @@ output -> 设置日志的输出目标
 
 ![图片](https://github.com/user-attachments/assets/130250bf-9a08-4dfa-81b3-e7974252b2d2)   
 
-package.xml <name> 也是包名  
+package.xml 下 <name> 也是包名  
 ![图片](https://github.com/user-attachments/assets/68d749fe-08cc-4340-845f-4663147e9706)  
 
 
