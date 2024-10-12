@@ -11,7 +11,7 @@ https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver
 
 ![图片](https://github.com/user-attachments/assets/fcd2821b-b3b8-4a0b-b11c-79274cdbf7df)  
 
-ROS自定义的坐标系，和雷达定义的不一样，雷达的ROS驱动适配了ROS的坐标系，把雷达的转换成了 -π~π （本身有效数据的输出范围是45度到315度）  
+ROS自定义的坐标系，和雷达定义的不一样，雷达的ROS驱动适配了ROS的坐标系，把雷达的转换成了 -π~π  
 ![图片](https://github.com/user-attachments/assets/8a270d53-69f1-4717-9e4b-a2d195aace45)  
 
 以产品底面为参考面，激光出射位置高度为54.32mm  
