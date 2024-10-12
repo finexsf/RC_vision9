@@ -9,10 +9,10 @@ https://www.richbeam.com/download/
 LakiBeam ROS1 Drvier:  
 https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver  
 
-![图片](https://github.com/user-attachments/assets/fcd2821b-b3b8-4a0b-b11c-79274cdbf7df)  
-
 scan：二维数据  
 pcd：三维数据(用在二维雷达上 z=0)  
+
+![图片](https://github.com/user-attachments/assets/fcd2821b-b3b8-4a0b-b11c-79274cdbf7df)  
 
 ROS自定义的坐标系，和雷达定义的不一样，雷达的ROS驱动适配了ROS的坐标系，把雷达的转换成了 -π~π  
 ![图片](https://github.com/user-attachments/assets/8a270d53-69f1-4717-9e4b-a2d195aace45)  
