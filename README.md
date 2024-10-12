@@ -10,7 +10,7 @@ LakiBeam ROS1 Drvier:
 https://github.com/RichbeamTechnology/Lakibeam_ROS1_Driver  
 
 scan：二维数据  
-pcd：三维数据(用在二维雷达上 z=0)  
+pcd：三维数据(用在二维雷达上 z=54.32mm)  
 
 ![图片](https://github.com/user-attachments/assets/fcd2821b-b3b8-4a0b-b11c-79274cdbf7df)  
 
