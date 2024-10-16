@@ -37,12 +37,12 @@ roslaunch 一定要将代理调到 DIRECT ！！！不要上外网
 ``` 
 roscore
 ```
-终端2：  
+终端2:（run LaserScan node）  
 ```  
 cd catkin_ws  
 catkin_make
 source ~/catkin_ws/devel/setup.bash
-roslaunch lakibeam1 lakibeam1_scan.launch（run LaserScan node）
+roslaunch lakibeam1 lakibeam1_scan.launch
 ```
 rosrun 包名 可执行文件名 --> 运行指定的ROS节点，只启动了1个节点  
 roslaunch 包名 launch文件名 --> 执行某个包下的 launch 文件，一次性启动了多个节点  
