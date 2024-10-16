@@ -122,6 +122,9 @@ rqt_graph
 rosnode list 
 ```
 
+打印坐标日志：  
+![图片](https://github.com/user-attachments/assets/aecd2a1b-559e-4c4e-8a11-fcd7df6560f3)  
+
 距离-->坐标：极坐标系  
 https://www.zhihu.com/question/51777959  
 二维激光雷达坐标转换：  
