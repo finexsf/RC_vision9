@@ -44,6 +44,9 @@ catkin_make
 source ~/catkin_ws/devel/setup.bash
 roslaunch lakibeam1 lakibeam1_scan.launch
 ```
+ctrl s 暂停（方便看数据）
+ctrl z 继续
+
 rosrun 包名 可执行文件名 --> 运行指定的ROS节点，只启动了1个节点  
 roslaunch 包名 launch文件名 --> 执行某个包下的 launch 文件，一次性启动了多个节点  
 
@@ -57,7 +60,6 @@ output -> 设置日志的输出目标
 
 package.xml 下 <name> 也是包名  
 ![图片](https://github.com/user-attachments/assets/68d749fe-08cc-4340-845f-4663147e9706)  
-
 
 ## 查看雷达数据  
 
