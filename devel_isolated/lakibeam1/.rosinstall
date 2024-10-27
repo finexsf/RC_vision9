@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fine/catkin_ws/devel_isolated/lakibeam1/setup.sh

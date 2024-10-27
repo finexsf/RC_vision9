@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# generated from catkin.builder Python module
+
+. "/home/fine/catkin_ws/devel_isolated/lakibeam1/setup.bash"
