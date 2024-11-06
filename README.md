@@ -11,3 +11,6 @@ https://docs.qq.com/sheet/DZnJGWUxOQkpzWmJa?tab=BB08J2
 16周目标：  
 实现 自动裁判功能 犯规碰撞判断（出界、18秒违例 这些和机器人相关的规则，和球相关的本学期不包括），记分依然手动人工。  
 
+电科 电子计分板 UI：  
+https://robocon2025.yuetau.net/dashboard  
+
